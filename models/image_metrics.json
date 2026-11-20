@@ -1,0 +1,10 @@
+{
+  "test_accuracy": 0.973,
+  "test_macro_f1": 0.973,
+  "epochs_run": 3,
+  "class_order": [
+    "top",
+    "trouser",
+    "bag"
+  ]
+}
