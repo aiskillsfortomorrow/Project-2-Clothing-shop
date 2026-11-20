@@ -1,0 +1,43 @@
+{
+  "chosen_max_depth": 5,
+  "validation": {
+    "Mean baseline": {
+      "MAE_units": 8.68,
+      "RMSE_units": 10.8,
+      "R2": -0.003
+    },
+    "Decision tree (depth 5)": {
+      "MAE_units": 5.68,
+      "RMSE_units": 6.82,
+      "R2": 0.6
+    }
+  },
+  "depth_comparison_validation": [
+    {
+      "max_depth": 3,
+      "MAE_units": 5.75,
+      "RMSE_units": 7.17,
+      "R2": 0.558
+    },
+    {
+      "max_depth": 5,
+      "MAE_units": 5.68,
+      "RMSE_units": 6.82,
+      "R2": 0.6
+    }
+  ],
+  "test": {
+    "Mean baseline": {
+      "MAE_units": 8.74,
+      "RMSE_units": 10.48,
+      "R2": -0.0
+    },
+    "Decision tree (depth 5)": {
+      "MAE_units": 5.45,
+      "RMSE_units": 6.64,
+      "R2": 0.598
+    }
+  },
+  "model_status": "decision tree beats the mean baseline",
+  "note": "Demonstration results on generated classroom data; not a real shop forecast."
+}

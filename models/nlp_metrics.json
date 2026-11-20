@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9,
+  "macro_f1": 0.902,
+  "predicted_sentiment_counts": {
+    "positive": 11,
+    "neutral": 10,
+    "negative": 9
+  },
+  "topic_counts": {
+    "product": 13,
+    "other": 8,
+    "delivery": 5,
+    "service": 4
+  }
+}

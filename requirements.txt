@@ -1,0 +1,10 @@
+streamlit==1.67.0
+pandas
+numpy
+scikit-learn==1.6.1
+joblib==1.6.0
+pillow
+nltk==3.9.1
+tensorflow-cpu~=2.21.0
+matplotlib
+groq==1.7.0
